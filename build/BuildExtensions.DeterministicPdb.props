@@ -1,8 +1,8 @@
 <Project>
   <PropertyGroup>
     <Deterministic>true</Deterministic>
-    <DebugType>portable</DebugType>
     <PathMap>$(MSBuildProjectDirectory)=.</PathMap>
+    <DebugType Condition="'$(DebugType)'==''">portable</DebugType>
     <EmbedAllSources Condition="'$(EmbedAllSources)'==''">true</EmbedAllSources>
     <IncludeSymbols Condition="'$(IncludeSymbols)'==''">true</IncludeSymbols>
   </PropertyGroup>
