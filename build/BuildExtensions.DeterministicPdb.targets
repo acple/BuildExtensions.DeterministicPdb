@@ -1,7 +1,9 @@
 <Project>
+
   <Target Name="DeterministicAssemblyAttributesPath" BeforeTargets="GenerateTargetFrameworkMonikerAttribute">
     <PropertyGroup>
       <TargetFrameworkMonikerAssemblyAttributesPath>$(IntermediateOutputPath)AssemblyAttributes$(DefaultLanguageSourceExtension)</TargetFrameworkMonikerAssemblyAttributesPath>
     </PropertyGroup>
   </Target>
+
 </Project>
