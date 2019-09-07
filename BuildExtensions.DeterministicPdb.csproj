@@ -6,6 +6,20 @@
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
   </PropertyGroup>
 
+  <PropertyGroup>
+    <Version>0.0.1</Version>
+    <Authors>acple</Authors>
+    <Description>Creates deterministic assembly and pdb not depend on project location</Description>
+    <Copyright>(c) 2019 acple</Copyright>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageProjectUrl>https://github.com/acple/BuildExtensions.DeterministicPdb</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/acple/BuildExtensions.DeterministicPdb.git</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <RepositoryBranch>v$(Version)</RepositoryBranch>
+    <PackageTags>msbuild;pdb;deterministic</PackageTags>
+  </PropertyGroup>
+
   <ItemGroup>
     <Content Include="./build/*" PackagePath="build" />
     <Content Include="./build/*" PackagePath="buildMultiTargeting" />
