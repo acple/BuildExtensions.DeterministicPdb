@@ -8,7 +8,7 @@ Only to do install this package.
 
 ```csproj
 <ItemGroup>
-  <PackageReference Include="BuildExtensions.DeterministicPdb" Version="1.0.0" PrivateAssets="All" />
+  <PackageReference Include="BuildExtensions.DeterministicPdb" Version="*" PrivateAssets="All" />
 </ItemGroup>
 ```
 
