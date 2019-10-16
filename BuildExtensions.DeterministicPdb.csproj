@@ -9,7 +9,7 @@
   </PropertyGroup>
 
   <PropertyGroup>
-    <Version>0.0.2</Version>
+    <Version>0.1.0</Version>
     <Authors>acple</Authors>
     <Description>Creates deterministic assembly and pdb not depend on project location</Description>
     <Copyright>(c) 2019 acple</Copyright>
